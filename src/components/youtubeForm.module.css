@@ -1,0 +1,79 @@
+.formcontainer{
+    display: flex;
+    max-width: 100%;
+    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    max-width: 40%;
+    min-width: 30rem;
+    width: 40%;
+    display: flex;
+    border-radius: 12px;
+    padding: 32px;
+    background-color:#e86160 ;
+    flex-wrap: wrap;
+
+}
+.formcontrol{
+    display: flex;
+    flex-direction: column; 
+    padding: 8px;
+    width: 50%;
+}
+.btn{
+    margin-top: auto;
+}
+.formcontrol .error{
+    color:rgba(181 23 22 / 75%);
+}
+label{
+    font-weight: bold;
+    color:#ffffff
+}
+input,textarea{
+    height: 2.5rem;
+    border: 2px solid #e86160;
+    border-radius: 12px;
+    padding-left: 8px;
+    width: 100%;
+}
+button{
+    height: 2.5rem;
+    border: 2px solid #e86160;
+    border-radius: 12px;
+    color: #e86160 ;
+    font-weight: bold;
+}
+button:hover:not([disabled]){
+    background-color: #e86160;
+    color:#ffffff;
+    border: 2px solid #ffffff;
+}
+textarea:active,input:active,input:focus,input:focus-visible,textarea:focus-visible{
+    outline:none;
+    box-shadow: 0px 0px 3px 3px #ffffff;
+}
+button:active:not([disabled]){
+    box-shadow: 0px 0px 3px 3px #ffffff;
+}
+.button[disabled], .button[disabled]:hover, .button[disabled]:focus, .button[disabled]:active {
+    opacity: 0.5;
+    all:unset;
+}
+.rightabsolutebtn{
+    display: flex;
+    position: absolute;
+    right:0;
+    top:0;
+}
+
+.smallbtn{
+    width: 20px;
+    font-weight: 900;
+    font-size: medium;
+}
